@@ -14,6 +14,10 @@ const CountriesSchema = Schema({
         type: String,
         required: [true, 'El continente es obligatorio'],
     },
+    img: {
+        type: String,
+        required: [true, 'La imagen es obligatoria'],
+    }
 });
 
 
